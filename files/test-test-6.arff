@@ -1,0 +1,12 @@
+@relation test
+
+@attribute x numeric
+@attribute y numeric
+@attribute flag {ok,no}
+
+@data
+20,19,ok
+90,86,ok
+74,77,ok
+9,10,ok
+400,10,no
